@@ -1,0 +1,13 @@
+@import url(../../css/button.css);
+
+.counter-wrapper {
+  background: #ffccdd;
+}
+.btns-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.heading {
+  font-size: 38px;
+}

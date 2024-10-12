@@ -1,0 +1,32 @@
+.btn {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+}
+.btn:focus {
+  outline: none;
+}
+.btn-success {
+  background-color: green;
+  color: white;
+}
+.btn-success:hover {
+  background-color: rgb(19, 142, 19);
+}
+.btn-danger {
+  background-color: red;
+  color: white;
+}
+.btn-danger:hover {
+  background-color: rgb(234, 48, 24);
+}
+.btn-disabled {
+  background-color: rgba(139, 139, 139, 0.269);
+  color: black;
+  pointer-events: none;
+}
+.btn-primary {
+  background-color: rgb(7, 93, 133);
+  color: white;
+}
